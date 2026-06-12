@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+.next/
+out/
+
+# Environment files (keep .env.example, ignore actual .env)
+# NOTE: .env is included intentionally for easy setup (no secrets in default values)
+# Uncomment below if you add real secrets:
+# .env
+# **/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# WSL helper scripts (not needed for the project)
+setup_db.sh
+start_backend.sh
+start_backend_wsl.sh
